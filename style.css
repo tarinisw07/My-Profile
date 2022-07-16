@@ -1,0 +1,96 @@
+.menu{ /*A dot is used for calling a class in CSS*/
+    list-style:none; /*This removes the dots against each of the menu items*/
+    width:100%;
+    background:black;
+    top:0;
+    margin-top:0px; /*A margin chages the space around an element's border*/
+    position:fixed;
+    float:left;
+    height:60px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.links{
+    display:inline;
+    color:aqua;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:40px;
+    font-family:'Courier New', Courier, monospace;
+    padding-bottom:10px; /*space between an element's border and the element's content*/
+    text-decoration:none;
+}
+.links:hover{
+    font-size:60px; 
+    background-color: aqua;
+}
+#Welcome{
+    color:brown;
+    background:linear-gradient(Green 10%, Blue 90%);
+    top:0;
+    width:100%;
+}
+body{
+    text-align:center;
+}
+h1,h2{
+    font-size:40px;
+    font-weight:bold;
+    font-family:"cinzel decorative",cursive;
+}
+#Bio{
+    padding-left:160px;
+    padding-right:160px;
+    text-align:center;
+}
+p{
+    font-size:20px;
+    line-height:1.5;
+    text-align:center;
+}
+.line{
+    height:10px;
+    width:200px;
+    margin:10px auto;
+    background-color: black;
+    
+}
+#im1{
+    width:400px;
+    height:400px;
+    border:10px solid;
+    padding:10px;
+    margin:20px;
+}
+#im1:hover{
+    transform:scale(0.9); 
+    
+}
+#mycarousel{
+    background-color: bisque;
+}
+#mycarousel img{
+    height:400px;
+    width:400px;
+    border:10px solid;
+}
+.carousel-inner h4{
+    margin-bottom:15px;
+    color:blueviolet;
+    font-size:30px;
+    font-family:"rampart one",cursive;
+}
+#mycarousel h2{
+    padding-top:25px;
+    padding-bottom:25px;
+}
+#Contacts{
+    background-color: aliceblue;
+}
+#Contacts iframe{
+    width:100%;
+}
+.contact1 h3{
+display:inline;
+
+}
